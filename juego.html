@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>The Hangman</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/Ahorcado.css">
+
+	</head>
+    <body>
+		
+        <header>
+        <div class="contenedor-titulo">
+            <h1 class="titulo">Bienvenidos al Juego del Ahorcado</h1>
+        </div>
+        </header>
+        <main>
+            <section id="area-lienzo">
+                <canvas id="dibujo-ahorcado" height="400" width="350"></canvas>
+            </section>
+
+            <section class="contenedor-palabras-generadas">
+                <div id="div-palabras-generadas">
+                    <span id="cont-vidas">¡Cuidado, te quedan <span id="vidas"></span> vidas!</span>
+                    <ul id="espacios-caracteres"></ul>
+                    <ul id="espacio-guiones"></ul>  
+                </div>
+                <div id="div-letras-erradas">
+                    <span id="span-erradas">Letras Utilizadas:</span>
+                    <ul id="letras-erradas"></ul>
+                </div>
+            </section>      
+                
+            <section class="contenedor-global">
+                <button id="id-inicio" class="boton-principal">
+                    Iniciar
+                </button>
+                <button id="regresar" class="boton-regresar" onclick="location.href='Ahorcado.html'">
+                    Regresar
+                </button>
+            </section>
+           
+
+        </main>
+            <footer>
+                Diseñado por Lautaro Zanet para el Programa ONE - Oracle Next Education 2022.
+                
+            </footer>
+</body>
+    <script src="js/canvas.js"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/validacion.js"></script>
+   
+    
+
+</html>

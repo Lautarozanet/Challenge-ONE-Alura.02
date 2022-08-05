@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>The Hangman</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/Ahorcado.css">
+
+	</head>
+	<body>
+	
+			<main>
+				<header>
+					<div class="contenedor-titulo">
+						<h1 class="titulo">Bienvenidos al Juego del Ahorcado</h1>
+					</div>
+				</header>
+				
+				<section class="cont-global-ahorcado">
+					
+						<button id="Comenzar-Juego" class="boton-principal" onclick="location.href='juego.html'">
+							Que comience el juego
+						</button>
+					
+					
+							<textarea class="inputText" type="text" id="input-nueva-palabra" 
+          					placeholder="Escriba aqui su palabra"></textarea>
+          					<button class="btn"  id="nueva-palabra" onclick="ingresoNuevaPalabra()">
+								AGREGAR PALABRA
+							</button> 
+				</section>
+	
+			</main>
+			<footer>
+				Diseñado por Lautaro Zanet para el Programa ONE - Oracle Next Education 2022.
+				
+			</footer>
+	</body>
+
+		<script src="js/validacion.js"></script>
+		
+</html>
