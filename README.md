@@ -15,6 +15,6 @@ En esta primera entrega les comparto mi trabajo en el Desarrollo del Segundo Cha
 
 ## GitHub Pages del Proyecto
 
-Link: https://github.com/Lautarozanet/Challenge-ONE-Alura.02.git
+Link: -
 
 Espero que lo disfruten!
