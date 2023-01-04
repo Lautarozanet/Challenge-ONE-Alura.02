@@ -14,7 +14,7 @@ document.getElementById("span-erradas").style.visibility = "hidden";
 BtnInicio.addEventListener("click",function(){
     
     BtnInicio.blur();
-    vidas = 7;
+    vidas =  7;
     spanVidas.innerHTML = vidas;    
     dibujarAhorcado(vidas);
 
